@@ -1,0 +1,101 @@
+html {
+  background: #fa163f;
+  box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  background: #0fabbc;
+  width: 1400px;
+  height: 900px;
+  margin: auto;
+  border-radius: 50%;
+}
+
+#container {
+  position: relative;
+  top: 100px;
+}
+
+#stickfig {
+  background-image: url(assets/2343862.jpg);
+  background-size: cover;
+  width: 750px;
+  height: 500px;
+  margin: auto;
+}
+
+#display {
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+  width: 450px;
+  height: 60px;
+}
+
+#result {
+  font-size: 50px;
+  font-family: "Coda Caption", sans-serif;
+  text-align: center;
+  margin: 0;
+}
+
+#refresh {
+  padding-top: 25px;
+}
+
+#turns {
+  display: flex;
+  width: 200px;
+  height: 60px;
+  text-align: center;
+  margin-left: 8px;
+  padding-top: 25px;
+  font-family: "Cabin", sans-serif;
+  font-size: 25px;
+  justify-content: space-between;
+}
+
+#buttons {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  height: 100px;
+  width: 650px;
+  margin: auto;
+  padding-bottom: 20px;
+}
+
+.buttondiv {
+  height: 50px;
+  width: 50px;
+  border: 1px solid #fa163f;
+  background: #e4f9ff;
+  text-align: center;
+  border-radius: 10px;
+  margin-left: 5px;
+}
+
+.row1,
+.row2 {
+  display: flex;
+  flex-direction: row;
+}
+
+.row2 {
+  margin-top: 5px;
+}
+
+button {
+  border-style: none;
+  background: transparent;
+  font-size: 20px;
+  font-family: "Coda Caption", sans-serif;
+  height: 49px;
+  width: 49px;
+  cursor: pointer;
+  outline: 0;
+}

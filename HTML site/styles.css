@@ -1,0 +1,59 @@
+body {
+  background-color: lightgrey;
+  font-family: Palatino, serif;
+  flex-grow: 1;
+}
+
+h3 {
+  text-decoration: underline;
+}
+
+h1.note {
+  color: whitesmoke;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+div.sticky {
+  position: sticky;
+  top: 0;
+  background-color: black;
+  border: 1.5px solid rgb(246, 250, 246);
+}
+
+div.image {
+  align-items: center;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+td,
+th {
+  border: 1px solid black;
+  text-align: left;
+  padding: 8px;
+}
+
+#image {
+  background-image: url(https://www.wannasurf.com/spot/Central_America/Puerto_Rico/survival/photo/photo_surf_Puerto_Rico_survival_454da7b4432e7.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 500px;
+  width: 650px;
+}
+
+#image .options {
+  border: solid 3px black;
+  border-radius: 15px;
+  top: 50px;
+  width: 400px;
+  margin: 0 auto;
+  background-color: lightgrey;
+}
+div.recommended {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}

@@ -1,0 +1,446 @@
+html {
+  box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+html,
+body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+body {
+  width: 1440px;
+  margin: auto;
+  font-family: "Montserrat", sans-serif;
+  background-image: url(assets/red-flame-digital-wallpaper-1546070.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  margin: 0px;
+}
+
+.navbar {
+  border: 2px solid #d65a31;
+  height: 78px;
+  margin: 0;
+  display: flex;
+  flex-direction: row;
+}
+
+.aboutButton,
+.galleryButton,
+.menuButton,
+.contactButton,
+.reservations {
+  border-radius: 10px;
+  height: 30px;
+  background-color: #eeeeee;
+  color: #d65a31;
+  padding-top: 5px;
+}
+
+.aboutButton {
+  width: 59px;
+  padding-left: 4px;
+  position: relative;
+  top: 22px;
+  left: 26px;
+}
+
+.galleryButton {
+  width: 66px;
+  padding-left: 5px;
+  position: relative;
+  top: 22px;
+  left: 36px;
+}
+
+.menuButton {
+  width: 53px;
+  padding-left: 3px;
+  position: relative;
+  top: 22px;
+  left: 46px;
+}
+
+.contactButton {
+  width: 100px;
+  padding-left: 5px;
+  position: relative;
+  top: 22px;
+  left: 55px;
+}
+
+.reservations {
+  width: 114px;
+  padding-left: 4px;
+  position: relative;
+  top: 22px;
+  left: 65px;
+}
+
+/* unvisited link */
+a:link {
+  color: #d65a31;
+  text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+  color: black;
+  text-decoration: none;
+}
+
+/* mouse over link */
+a:hover {
+  color: #d65a31;
+}
+
+/* selected link */
+a:active {
+  color: #d65a31;
+  text-decoration: none;
+}
+
+.socialMedia {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  left: 1057px;
+  padding: 19px;
+  background-color: #eeeeee;
+}
+
+.FB {
+  color: blue;
+  font-size: 30px;
+}
+
+.TW {
+  color: cornflowerblue;
+  font-size: 30px;
+  margin-left: 5px;
+}
+
+.IG {
+  color: purple;
+  font-size: 30px;
+  margin-left: 5px;
+}
+
+#pictures {
+  width: 100%;
+  border: 1px solid black;
+  margin: auto;
+}
+
+.rsvAndAbout {
+  height: 320px;
+}
+
+.rsvTool {
+  height: 235px;
+  position: relative;
+  top: 45px;
+  left: 52px;
+}
+
+.aboutus {
+  width: 1000px;
+  height: 300px;
+  border: 2px solid #d65a31;
+  border-radius: 15px;
+  background-color: #eeeeee;
+  background-image: url(./assets/fire-transparent.png);
+  margin: auto;
+  padding-left: 15px;
+  position: relative;
+  bottom: 230px;
+}
+
+.about {
+  font-family: "Quicksand", sans-serif;
+  color: #d65a31;
+}
+
+.aboutPara {
+  position: relative;
+  bottom: 30px;
+}
+
+.withLove {
+  color: #d65831;
+}
+
+.menu {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+  height: 900px;
+  row-gap: 10px;
+  margin-top: 10px;
+}
+
+.appetizers,
+.entrees,
+.desserts {
+  height: 300px;
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  background-color: #393e46;
+  border: 1px solid #d65a31;
+  opacity: 0.9;
+}
+
+.entrees img,
+.appetizers img,
+.desserts img {
+  height: 296px;
+  width: 348px;
+}
+
+.footer {
+  height: 400px;
+}
+
+.appetizers > div,
+.entrees > div,
+.desserts > div {
+  height: 300px;
+  width: 300px;
+}
+
+.picturesinrest {
+  background-image: url("./assets/group-of-people-gathering-inside-bar-1058277.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  height: 600px;
+}
+
+.row1,
+.row2 {
+  display: flex;
+  flex-direction: row;
+  border: 2px solid #d65a31;
+}
+
+.row1 img,
+.row2 img {
+  height: 300px;
+  width: 480px;
+}
+
+.picturesflex {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  row-gap: 0;
+}
+
+.row1 > div,
+.row2 > div {
+  margin-bottom: 0;
+  height: 300px;
+}
+
+.logo img {
+  height: 75px;
+  width: 100px;
+}
+
+.dess,
+.entr,
+.apps {
+  color: #eeeeee;
+}
+
+.footer {
+  height: 400px;
+  border: 2px solid #d65831;
+  background-color: black;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.map {
+  position: relative;
+  top: 3px;
+}
+
+.contactUs {
+  margin: 0px;
+  font-size: 15px;
+  text-align: center;
+  color: #eeeeee;
+  width: 300px;
+}
+
+#contact {
+  display: inline-block;
+  margin: 0px;
+  font-family: "Quicksand", sans-serif;
+  color: #d65831;
+  font-size: 20px;
+}
+
+.logoTwo img {
+  width: 400px;
+  height: 396px;
+}
+
+.followUs {
+  margin: 0px;
+  margin-top: 80px;
+  font-size: 15px;
+  text-align: center;
+  color: #eeeeee;
+  width: 200px;
+}
+
+#follow {
+  margin: 0px;
+  font-family: "Quicksand", sans-serif;
+  color: #d65831;
+  font-size: 20px;
+  display: inline-block;
+}
+
+.mediaLink ul {
+  list-style: none;
+}
+
+.linkButtons {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding: 0px;
+}
+
+.fb,
+.tw,
+.ig {
+  color: #eeeeee;
+  font-size: 25px;
+  display: inline-block;
+}
+
+.hours {
+  margin: 0px;
+  font-size: 15px;
+  text-align: center;
+  color: #eeeeee;
+  width: 200px;
+}
+
+#Hours {
+  margin: 0px;
+  font-family: "Quicksand", sans-serif;
+  color: #d65831;
+  font-size: 20px;
+  display: inline-block;
+}
+
+.textarea {
+  width: 410px;
+  height: 200px;
+  position: relative;
+  left: 1px;
+  top: 56px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 15px;
+}
+
+.textarea:focus {
+  outline: none;
+}
+
+.textarea::placeholder {
+  color: #d65831;
+  font-size: large;
+}
+
+.comment {
+  margin: 0px;
+  font-family: "Quicksand", sans-serif;
+  color: #d65831;
+  font-size: 20px;
+  display: inline-block;
+}
+
+.leaveAComment {
+  margin: 0px;
+  font-size: 15px;
+  text-align: center;
+  color: #eeeeee;
+}
+
+.dess,
+.entr,
+.apps {
+  width: 1502px;
+  margin: 0;
+}
+
+.firstline {
+  display: flex;
+  flex-direction: row;
+}
+
+.firstline > p {
+  margin: 0;
+  margin-left: 5px;
+  font-family: "Quicksand", sans-serif;
+  color: #d65a31;
+}
+
+.description {
+  margin: 0;
+  text-align: left;
+  font-size: 12px;
+}
+
+.submitButton {
+  position: relative;
+  top: 62px;
+  left: 172px;
+  color: white;
+  font-size: 14px;
+  background-color: #d65831;
+  height: 34px;
+  width: 66px;
+  border: none;
+  border-radius: 10px;
+}
+
+.entrees img {
+  margin-left: 780px;
+}
+
+.graffiti {
+  background-image: url(assets/architecture-bright-cars-casino-444964.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  height: 600px;
+}
+
+label {
+  color: #d65a31;
+  font-family: "Quicksand", sans-serif;
+  font-size: 40px;
+  border-style: none;
+  background-color: #393e46;
+  width: 320px;
+  border: 1px solid #d65a31;
+  opacity: 0.9;
+}

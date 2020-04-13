@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+    <!-- StyleSheets -->
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.1.0/css/all.css"
+      integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt"
+      crossorigin="anonymous"
+    />
+    <!-- StyleSheets End -->
+
+    <!-- Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Coda+Caption:800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Cabin&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Fonts End -->
+
+    <title>Hangman Game</title>
+  </head>
+  <body>
+    <div id="container">
+      <div id="stickfig"></div>
+      <br />
+      <div id="display">
+        <p id="result"></p>
+        <button type="button" id="refresh">
+          <i class="fas fa-sync-alt"></i>
+        </button>
+        <div id="turns">Turns Left: <span id="mistakes">0</span> of <span id="maxWrong"></span></span></div>
+      </div>
+      <br />
+      <div id="buttons">
+        <div class="row1">
+          <div class="buttondiv"><button id="letters" value="a" onclick="buttonValue">A</button></div>
+          <div class="buttondiv"><button id="letters" value="b" onclick="buttonValue">B</button></div>
+          <div class="buttondiv"><button id="letters" value="c" onclick="buttonValue">C</button></div>
+          <div class="buttondiv"><button id="letters" value="d" onclick="buttonValue">D</button></div>
+          <div class="buttondiv"><button id="letters" value="e" onclick="buttonValue">E</button></div>
+          <div class="buttondiv"><button id="letters" value="f" onclick="buttonValue">F</button></div>
+          <div class="buttondiv"><button id="letters" value="g" onclick="buttonValue">G</button></div>
+          <div class="buttondiv"><button id="letters" value="h" onclick="buttonValue">H</button></div>
+          <div class="buttondiv"><button id="letters" value="i" onclick="buttonValue">I</button></div>
+          <div class="buttondiv"><button id="letters" value="j" onclick="buttonValue">J</button></div>
+          <div class="buttondiv"><button id="letters" value="k" onclick="buttonValue">K</button></div>
+          <div class="buttondiv"><button id="letters" value="l" onclick="buttonValue">L</button></div>
+          <div class="buttondiv"><button id="letters" value="m" onclick="buttonValue">M</button></div>
+        </div>
+        <div class="row2">
+          <div class="buttondiv"><button id="letters" value="n" onclick="buttonValue">N</button></div>
+          <div class="buttondiv"><button id="letters" value="o" onclick="buttonValue">O</button></div>
+          <div class="buttondiv"><button id="letters" value="p" onclick="buttonValue">P</button></div>
+          <div class="buttondiv"><button id="letters" value="q" onclick="buttonValue">Q</button></div>
+          <div class="buttondiv"><button id="letters" value="r" onclick="buttonValue">R</button></div>
+          <div class="buttondiv"><button id="letters" value="s" onclick="buttonValue">S</button></div>
+          <div class="buttondiv"><button id="letters" value="t" onclick="buttonValue">T</button></div>
+          <div class="buttondiv"><button id="letters" value="u" onclick="buttonValue">U</button></div>
+          <div class="buttondiv"><button id="letters" value="v" onclick="buttonValue">V</button></div>
+          <div class="buttondiv"><button id="letters" value="w" onclick="buttonValue">W</button></div>
+          <div class="buttondiv"><button id="letters" value="x" onclick="buttonValue">X</button></div>
+          <div class="buttondiv"><button id="letters" value="y" onclick="buttonValue">Y</button></div>
+          <div class="buttondiv"><button id="letters" value="z" onclick="buttonValue">Z</button></div>
+        </div>
+      </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+    crossorigin="anonymous"></script>
+    <script src="main.js"></script>
+  </body>
+</html>

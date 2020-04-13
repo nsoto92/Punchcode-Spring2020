@@ -1,0 +1,23 @@
+html {
+  box-sixing: border-box;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 250px 500px;
+}
+
+.calculator {
+  display: flex;
+  flex-direction: column;
+}
+
+.input,
+.functions {
+  display: flex;
+  flex-direction: row;
+}

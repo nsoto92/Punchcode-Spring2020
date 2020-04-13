@@ -1,0 +1,70 @@
+html {
+  box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+.calculator {
+  position: relative;
+  margin: 10em auto;
+  color: white;
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+  height: 250px;
+  width: 200px;
+  background-color: rgb(96, 170, 80);
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+}
+
+.row > .buttondiv {
+  height: 50px;
+  width: 50px;
+  border: 1px solid rgb(138, 194, 127);
+  display: inline-block;
+  text-align: center;
+}
+
+.display {
+  border: 1px solid rgb(138, 194, 127);
+  height: 50px;
+  width: 150px;
+  text-align: center;
+}
+
+button {
+  font-weight: 200;
+  font-size: 20px;
+  color: white;
+  height: 45px;
+  width: 45px;
+  border-style: none;
+  display: inline-block;
+  text-align: center;
+  padding: -15px 0;
+  background: transparent;
+  cursor: pointer;
+  outline: 0;
+}
+
+.row > #operand {
+  background-color: rgb(124, 185, 111);
+}
+
+.results {
+  font-size: 20px;
+  font-weight: 200;
+  text-align: center;
+  color: white;
+  background: transparent;
+  border-style: none;
+  height: 50px;
+  width: 150px;
+}

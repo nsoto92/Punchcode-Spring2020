@@ -1,0 +1,14 @@
+html {
+  box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+.carticon {
+  font-size: 40px;
+  color: white;
+  background-color: black;
+}

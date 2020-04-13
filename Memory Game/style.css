@@ -1,0 +1,76 @@
+html {
+  box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  background-image: url(assets/giphy.gif);
+  background-repeat: repeat;
+}
+
+#title,
+#subtitle {
+  font-family: "Pathway Gothic One", sans-serif;
+  color: gold;
+}
+
+#title {
+  font-size: 30px;
+  height: 50px;
+  width: 100px;
+  position: relative;
+  left: 700px;
+  border-style: none;
+}
+
+#cardgame {
+  width: 1400px;
+  height: 700px;
+  border: 1px solid transparent;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#cardId {
+  height: 200px;
+  width: 200px;
+  margin: auto;
+  cursor: pointer;
+}
+
+img {
+  height: 190px;
+  width: 190px;
+  border: 3px solid gold;
+}
+
+.back,
+.front {
+  height: 200px;
+  width: 200px;
+}
+
+.front {
+  background: black;
+  color: gold;
+  text-align: center;
+  padding-top: 50px;
+  border: 3px solid gold;
+}
+
+.front > img {
+  width: 96px;
+  height: 96px;
+  border-style: none;
+}
+
+.back > img {
+  height: 190px;
+  width: 190px;
+  border: 3px solid gold;
+}

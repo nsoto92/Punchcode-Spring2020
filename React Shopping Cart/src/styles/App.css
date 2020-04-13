@@ -1,0 +1,74 @@
+html {
+  box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+.container {
+  width: 1600px;
+  height: 700px;
+  margin: 0 auto;
+  display: flex;
+}
+
+.products {
+  width: 1000px;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+}
+
+.cart {
+  width: 200px;
+  transition: 1s;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+img {
+  width: 220px;
+}
+
+.products div:hover {
+  border: gray 1px solid;
+}
+
+.products {
+  text-align: center;
+}
+
+button {
+  width: 200px;
+  height: 50px;
+  background-color: black;
+  color: white;
+  margin-bottom: 10px;
+}
+
+.cartimg {
+  width: 100px;
+}
+
+.products button:hover {
+  background-color: rgb(228, 192, 65);
+}
+
+.carticon {
+  font-size: 40px;
+  color: white;
+  background-color: black;
+}
+
+#open {
+  width: 500px;
+}
+
+#close {
+  width: 0px;
+}
