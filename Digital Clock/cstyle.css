@@ -1,0 +1,14 @@
+body {
+  background-color: #4f98ca;
+}
+
+#clock {
+  width: 550px;
+  color: #272727;
+  margin: auto;
+  text-align: center;
+  margin-top: 300px;
+  font-size: 100px;
+  font-family: "Nanum Gothic Coding", monospace;
+  font-style: bold;
+}

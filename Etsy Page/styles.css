@@ -1,0 +1,254 @@
+html {
+  box-sizing: border-box;
+  font-family: "Guardian-egyptt";
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  width: 1400px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  margin-top: 0;
+  height: 72px;
+  padding: 12px 36px;
+}
+
+header > p {
+  font-size: 40px;
+  margin-right: 100px;
+  color: rgb(236, 86, 39);
+  margin: 0;
+  font-weight: 500;
+  padding: 0px 6px 0px 0px;
+}
+
+header > input {
+  width: 1000px;
+  height: 50px;
+  position: relative;
+  border: 1px solid rgb(206, 206, 206);
+  background-color: rgb(239, 239, 239);
+  border-top-left-radius: 25px;
+  border-bottom-left-radius: 25px;
+  padding: 9px 42px 9px 18px;
+  border-right: none;
+}
+
+header > .search {
+  width: 61px;
+  height: 50px;
+  color: #222222;
+  font-size: 16px;
+  padding: 12px 21px 12px 15px;
+  border: 1px solid rgb(206, 206, 206);
+  background-color: rgb(239, 239, 239);
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+  border-left: none;
+}
+
+header > .signin {
+  width: 72px;
+  height: 36px;
+  color: #222222;
+  font-size: 13px;
+  margin: 0px 6px 0px 0px;
+  padding: 9px 15px;
+  border: none;
+  background-color: transparent;
+  text-align: center;
+}
+
+header > img {
+  width: 25px;
+  height: 25px;
+  position: relative;
+  top: 10px;
+  margin-left: 25px;
+}
+
+.departments {
+  display: flex;
+  justify-content: space-between;
+  color: #222222;
+  list-style-type: disc;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 40px;
+  list-style: none;
+  margin: 0 auto;
+  padding: 0px 18px;
+}
+
+.departments > li {
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 13px;
+  padding: 0 0 12px;
+  margin: 4px 12px 0 0;
+  align-items: center;
+  font-weight: 50;
+  letter-spacing: 0.7px;
+}
+
+.border {
+  position: absolute;
+  width: 100%;
+  border: 1px solid lightgray;
+  left: 0;
+}
+
+.tags {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  height: 75px;
+  margin-top: 10px;
+  align-items: center;
+  white-space: nowrap;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  width: 100%;
+  padding-left: 18px;
+  text-align: left;
+}
+
+.taglist {
+  padding-left: 18px;
+  display: block;
+  justify-content: space-between;
+  list-style-type: disc;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 40px;
+  height: 75px;
+  margin-top: -30px;
+  align-items: center;
+  overflow: hidden;
+  white-space: nowrap;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-bottom: -6px;
+  font-size: 14px;
+  line-height: 1.4;
+  text-align: left;
+}
+
+.taglist > button {
+  display: inline-block;
+  font-family: "Roboto", sans-serif;
+  background-color: #faa077;
+  border-style: none;
+  border-radius: 24px;
+  height: 36px;
+  justify-items: center;
+  margin-bottom: 6px;
+  line-height: 1.4;
+  min-height: 36px;
+  min-width: 36px;
+  padding-top: 9px;
+  padding-bottom: 9px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: 5px;
+}
+
+.toptag {
+  line-height: 18px;
+  font-size: 13px;
+  font-weight: 500;
+  letter-spacing: 0.3px;
+}
+
+.mainpart {
+  display: flex;
+  flex-direction: row;
+}
+
+.navbar {
+  position: relative;
+  top: -45px;
+  margin-top: 0;
+  display: flex;
+  flex-direction: column;
+  padding: 0px 18px;
+  width: 285px;
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 13px;
+}
+
+.navbar > strong {
+  font-size: 13px;
+}
+
+.categories {
+  list-style: none;
+  font-size: 13px;
+  padding: 0;
+}
+
+.productdiv {
+  width: 1000px;
+}
+
+#prodlist {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  justify-items: center;
+  padding: 0px 18px;
+  column-gap: 18px;
+}
+
+.products > img {
+  width: 251.5px;
+  height: 200px;
+}
+
+.customrange {
+  display: flex;
+  direction: row;
+}
+
+fieldset {
+  border-style: none;
+  font-family: "Nunito Sans", sans-serif;
+  letter-spacing: 0.7px;
+}
+
+.categories li {
+  padding: 0px 0px 8px 24px;
+  position: relative;
+  top: -25px;
+  font-weight: 10;
+}
+h3 {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.showmore {
+  border-style: none;
+}
+
+.description > .title {
+  text-overflow: ellipsis;
+  width: 250px;
+  white-space: nowrap;
+  overflow: hidden;
+}

@@ -1,0 +1,115 @@
+@import url("https://fonts.googleapis.com/css2?family=Orbitron:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Anton|Gugi|Lato|Roboto|Sofia&display=swap");
+
+.cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+/* tablets */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  .cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+}
+/* smartphones */
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  .cards {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+}
+
+.findPros {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  padding: 5px;
+}
+
+.title {
+  text-align: center;
+  padding-bottom: 40px;
+  font-family: Lato;
+}
+
+.playerList {
+  display: grid;
+  border: 5px solid #ccc;
+  border-radius: 10px;
+  height: 450px;
+  width: 300px;
+  margin: auto;
+  margin-bottom: 10px;
+  text-align: center;
+  background-image: url("https://user-images.githubusercontent.com/58059462/78874727-ac26c780-7a01-11ea-94c8-533f37ebeca4.jpg");
+  background-position: center top;
+  box-shadow: 10px 10px 53px 1px rgba(0, 0, 0, 0.71);
+}
+
+.playerDescriptionContainer {
+  padding: 10px;
+  background-color: #890002;
+  width: 80%;
+  margin: auto;
+  border-radius: 20px;
+}
+.playerDescription {
+  background-color: black;
+  font-size: 0.1em;
+}
+
+.playerName {
+  font-size: 1.5em;
+  padding-top: 10px;
+  color: black;
+}
+
+.playerSport {
+  margin-left: 10px;
+  margin: auto;
+  font-size: 1.5em;
+  color: black;
+}
+
+.playerList p {
+  font-family: Gugi;
+  margin: auto;
+  text-align: center;
+  opacity: 0.9;
+  border-radius: 10px;
+
+  color: white;
+}
+
+.flipbutton {
+  width: 70%;
+  margin: auto;
+  border-radius: 10px;
+  background-color: black;
+  color: white;
+
+  margin-bottom: 17px;
+}
+
+.flipbutton:focus {
+  outline: none;
+}
+
+.actionimg {
+  width: 250px;
+  border: 10px solid #890002;
+  border-radius: 10px;
+}
+
+.actionImgContainer {
+  padding-bottom: 0px;
+}
+
+.playerSport {
+  background-color: black;
+  border: 10px solid #890002;
+  border-radius: 10px;
+  padding: 5px;
+  font-size: 0.9em;
+}

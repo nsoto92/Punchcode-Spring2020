@@ -1,0 +1,61 @@
+body {
+  background: rgb(107, 161, 209);
+}
+
+form {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-content: center;
+}
+
+label {
+  font-size: 9px;
+  font-family: Arial, sans-serif;
+  color: white;
+}
+
+fieldset {
+  border: none;
+}
+
+::placeholder {
+  color: rgb(67, 102, 128);
+  font-style: italic;
+}
+
+input:focus,
+textarea:focus {
+  border-color: rgb(67, 102, 128);
+}
+
+input,
+textarea,
+select {
+  background: transparent;
+  padding: 8px;
+  border: 1px solid white;
+  width: 300px;
+  color: white;
+  min-height: 30px;
+  margin-bottom: 20px;
+  outline: 0;
+}
+
+textarea {
+  height: 100px;
+  outline: none;
+}
+
+@media only screen and (max-width: 1000px) {
+  body {
+    background-color: black;
+  }
+
+  form {
+    grid-template-columns: 1fr;
+  }
+
+  fieldset:nth-child(3) {
+    order: -1;
+  }
+}

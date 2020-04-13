@@ -1,0 +1,41 @@
+{
+  "name": "allsports",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "client": "cd client && npm start",
+    "server": "cd server && npm start",
+    "start": "concurrently \"npm run client\" \"npm run server\""
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PC-Fullstack-Spring-2020/boilerpolate/issues"
+  },
+  "homepage": "https://github.com/PC-Fullstack-Spring-2020/boilerpolate#readme",
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.28",
+    "@fortawesome/free-solid-svg-icons": "^5.13.0",
+    "@fortawesome/react-fontawesome": "^0.1.9",
+    "concurrently": "^5.1.0",
+    "react-bootstrap": "^1.0.0",
+    "react-card-flip": "^1.0.10",
+    "react-dom": "^16.13.1",
+    "react-native-sha512": "^1.0.2",
+    "react-scroll-box": "^0.3.5",
+    "react-slick": "^0.25.2",
+    "slick-carousel": "^1.8.1"
+  },
+  "boilerplate": {
+    "name": "boilerplate",
+    "version": "1.0.0",
+    "description": "",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/PC-Fullstack-Spring-2020/boilerpolate.git"
+    },
+    "author": "",
+    "license": "ISC"
+  }
+}

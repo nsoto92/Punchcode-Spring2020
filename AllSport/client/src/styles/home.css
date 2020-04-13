@@ -1,0 +1,178 @@
+/* import fonts from google fonts */
+@import url("https://fonts.googleapis.com/css?family=Anton|Gugi|Lato|Roboto|Sofia&display=swap");
+
+/* header */
+
+header {
+  background-color: red;
+  font-family: roboto;
+  width: 100%;
+}
+
+header .site-title {
+  font-family: gugi;
+}
+
+.container {
+  width: 100%;
+}
+
+.header-links a {
+  font-size: 0.9em;
+  text-decoration: none;
+  color: white;
+}
+
+#btn-text {
+  color: red;
+}
+
+/*  Navigation Menu **/
+
+.navbar-nav {
+  margin-right: 40px;
+  width: 100%;
+}
+
+.navbar-nav .nav-link {
+  font-size: 0.9em;
+  color: black;
+}
+
+.navbar-nav .nav-item .nav-link {
+  padding: 0 1.3em;
+}
+
+/* Slider one */
+
+.site-slider {
+  position: relative;
+}
+
+/* Trending Pros */
+
+.homePros {
+  width: 200px;
+  height: 200px;
+  margin-top: 50px;
+}
+.site-slider-two {
+  position: relative;
+  height: 30%;
+}
+
+.site-slider-two .product {
+  height: 25rem;
+  position: relative;
+  overflow: hidden;
+}
+
+.site-slider-two .product img {
+  width: 90%;
+  margin: auto;
+}
+
+.site-btn.btn-span {
+  padding: 0.8rem 1.9rem;
+  border-radius: 4rem;
+  border: 1px solid border;
+  background-color: red;
+  color: white;
+  list-style-type: none;
+}
+
+/* Featured */
+.container .features {
+  padding: 2rem 0;
+}
+
+.container .features h1 {
+  font-family: gugi;
+}
+
+.container .features p {
+  padding: 0.5% 25%;
+  font-size: 0.9em;
+}
+
+.homeProd {
+  width: 200px;
+  height: 200px;
+  padding: 0 16px;
+}
+/* Sale Video */
+
+.player-wrapper {
+  position: relative;
+  padding-top: 56.25%; /* 720 / 1280 = 0.5625 */
+  margin-left: 5%;
+}
+
+.react-player {
+  position: absolute;
+  top: 0;
+}
+
+.saleHeader {
+  padding-top: 100px;
+}
+
+/* Latest and Greatest */
+.latest {
+  width: 1440px;
+  margin: auto;
+}
+
+.nikeZoom {
+  width: 90%;
+  margin-left: 5%;
+}
+
+/* sports logo */
+
+.slick-next:before {
+  color: black !important;
+}
+
+.slick-prev:before {
+  color: black !important;
+}
+
+.col-md-8 {
+  max-width: 100%;
+}
+
+/* Footer */
+
+footer {
+  width: 100%;
+  margin-top: 100px;
+  padding-top: 20px;
+  color: white;
+  font-size: 20px;
+  font-family: gugi;
+  background-color: red;
+  text-decoration: none;
+}
+.list {
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+}
+
+.rights {
+  font-size: 10px;
+  text-align: center;
+}
+
+a {
+  color: white;
+}
+a:hover {
+  color: white;
+}
+
+.cartB {
+  display: hidden;
+}

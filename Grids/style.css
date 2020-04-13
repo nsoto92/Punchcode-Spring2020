@@ -1,0 +1,34 @@
+section {
+  display: grid;
+  grid-template-areas:
+    "header header header header header header header header"
+    "sidebar sidebar main main main main main main"
+    "sidebar sidebar footer footer footer footer footer footer";
+}
+
+main,
+header,
+footer,
+aside {
+  min-height: 100px;
+}
+
+main {
+  grid-area: main;
+  background: darkgrey;
+}
+
+aside {
+  grid-area: sidebar;
+  background: lightblue;
+}
+
+header {
+  grid-area: header;
+  background: red;
+}
+
+footer {
+  grid-area: footer;
+  background: red;
+}

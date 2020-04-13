@@ -1,0 +1,10 @@
+#hclock {
+  width: 550px;
+  color: black;
+  margin: auto;
+  text-align: center;
+  margin-top: 300px;
+  font-size: 100px;
+  font-family: "Nanum Gothic Coding", monospace;
+  font-style: bold;
+}

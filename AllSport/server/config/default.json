@@ -1,0 +1,9 @@
+{
+  "db": {
+    "host": "localhost",
+    "user": "admin",
+    "password": "password",
+    "database": "AllSport",
+    "port": 3307
+  }
+}
